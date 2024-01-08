@@ -1,0 +1,60 @@
+.productCard {
+  background-color: #fff;
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 10px 20px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  user-select: none;
+}
+.productCard:hover {
+  width: 220px;
+  height: 160px;
+}
+.priceCatContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cardsBtnContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.editBtn {
+  padding: 10px;
+  background-color: #1313b4;
+  color: white;
+  border: 1px solid #1313b4;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.editBtn:hover {
+  color: #1313b4;
+  border-color: #1313b4;
+  background-color: transparent;
+}
+.deleteBtn {
+  padding: 10px;
+  background-color: darkred;
+  color: white;
+  border: 1px solid darkred;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.deleteBtn:hover {
+  color: darkred;
+  border-color: darkred;
+  background-color: transparent;
+}
+

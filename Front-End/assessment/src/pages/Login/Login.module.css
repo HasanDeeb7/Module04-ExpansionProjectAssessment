@@ -1,0 +1,32 @@
+.LoginContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.inputWrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.loginInput {
+  padding: 10px;
+}
+.submitBtn {
+  padding: 10px;
+  background-color: #1313b4;
+  color: white;
+  border: 1px solid #1313b4;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+.submitBtn:hover {
+  color: #1313b4;
+  border-color: #1313b4;
+  background-color: transparent;
+}

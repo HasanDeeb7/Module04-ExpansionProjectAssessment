@@ -1,0 +1,22 @@
+.dashboardContainer {
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+  padding: 20px;
+}
+.addBtn {
+  padding: 10px;
+  height: fit-content;
+  align-self: center;
+  background-color: #1313b4;
+  color: white;
+  border: 1px solid #1313b4;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.addBtn:hover {
+  color: #1313b4;
+  border-color: #1313b4;
+  background-color: transparent;
+}
